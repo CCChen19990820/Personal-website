@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa"
 import { DropDownContainer, DropDownIcon, DropDownItem, DropDownItemDesc, DropDownItemTitle, DropDownTextContainer } from './NavDropDown'
 
 const About = (props) => (
-  <div id='about' className='about'>
+  <div id='About' className='about'>
       <div className='about section'>
           <p className='about title' style={{textAlign: 'center', paddingTop:"200px", fontSize: 30}}>
             ABOUT

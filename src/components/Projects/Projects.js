@@ -22,7 +22,7 @@ const Projects = () => (
   // <div>
   //   Project
   // </div>
-  <Section nopadding id="projects">
+  <Section nopadding id="Projects">
     <p className='experience title' style={{textAlign: 'center', paddingTop:"200px", fontSize: 30}}>
       PROJECT
     </p>

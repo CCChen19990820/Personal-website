@@ -38,9 +38,23 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  {
+    year: 'Mar. 2022 - Jun. 2023',
+    job: 'Researcher',
+    company: 'National Cheng Kung University Hospital',
+    text1: '- Ultrasonic image analysis of parotid gland tumors. ',
+    text2: '- Develop models to automatically segment and classify ultrasound images.',
+    text3: '- Build clinical system and user interface.',
+    id: 0,
+  },{ 
+    year: 'Mar. 2020 - July. 2021',
+    job: 'Teaching Assistant',
+    company: 'National Cheng Chi University CS',
+    text1: '- Assist students in program implementation.',
+    text2: '- Write automated test of python code.',
+    text3: '- Teach students python knowledge.',
+    id: 1,  
+  },
 ];
+
+
