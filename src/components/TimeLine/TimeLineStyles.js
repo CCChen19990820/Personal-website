@@ -1,6 +1,30 @@
 
 import styled from 'styled-components'
 
+export const Expe = styled.div`
+  text-align: Left;
+  width: 100%;
+  height: auto;
+  paddingTop: 50px;
+  border-left: auto;
+  border-left: solid;
+  margin-left: 30px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+  }
+`
+
+export const BlogCard = styled.div`
+  text-align: Left;
+  width: 100%;
+  height: auto;
+  border-left: auto;
+  margin-left: 30px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+  }
+`
+
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;

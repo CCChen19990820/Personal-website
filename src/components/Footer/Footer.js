@@ -7,9 +7,9 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <div className='footer section' >
-      <h2 style={{display: "flex", textAlign: "center"}}>
-        © 2023 ALL RIGHTS RESERVED
-      </h2>
+      <p style={{textAlign: 'center', fontSize: 20}}>
+        © Created by JeffChen in 2023.
+      </p>
     </div>
   );
 };

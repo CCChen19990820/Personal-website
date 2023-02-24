@@ -1,10 +1,12 @@
 {
   "name": "portfolio_nextjs",
+  "homepage": "https://ccchen19990820.github.io/personal-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    "export": "next export",
     "start": "next start"
   },
   "dependencies": {
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
+    "rimraf": "^4.1.2",
     "tailwindcss": "^3.2.7"
   }
 }

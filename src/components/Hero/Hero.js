@@ -5,7 +5,7 @@ import Button from '../../styles/GlobalComponents/Button';
 // import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
-  <div id='hero' className="hero" >
+  <div id='Hero' className="hero" >
     <div className='hero section'>
       <h1 className='hero-h1-text' style={{textAlign: 'center', paddingTop:"200px", fontSize: 70}}>
         Hello, I'm <span style={{color: '#8DF2C0'}}>Jeff Chen</span>
