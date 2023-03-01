@@ -14,19 +14,19 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li >
-        <NavLink href="/#Hero" style={{  padding: "10px"}}>Home</NavLink>
+        <NavLink href="/personal-website/#Hero" style={{  padding: "10px"}}>Home</NavLink>
       </li>
       <li>
-        <NavLink href="/#About" style={{  padding: "10px"}}>About</NavLink>
+        <NavLink href="/personal-website/#About" style={{  padding: "10px"}}>About</NavLink>
       </li>
       {/* <li>
         <NavLink href="/#Technologies" style={{  padding: "10px"}}>Technologies</NavLink>
       </li> */}
       <li>
-        <NavLink href="/#Timeline" style={{  padding: "10px"}}>Experience</NavLink>
+        <NavLink href="/personal-website/#Timeline" style={{  padding: "10px"}}>Experience</NavLink>
       </li>
       <li>
-        <NavLink href="/#Projects" style={{  padding: "10px"}}>Projects</NavLink>
+        <NavLink href="/personal-website/#Projects" style={{  padding: "10px"}}>Projects</NavLink>
       </li>
       
       
