@@ -23,10 +23,10 @@ const Header = () =>  (
         <NavLink href="/#Technologies" style={{  padding: "10px"}}>Technologies</NavLink>
       </li> */}
       <li>
-        <NavLink href="/#Timeline" style={{  padding: "10px"}}>Experience</NavLink>
+        <NavLink href="/personal-website/#Timeline" style={{  padding: "10px"}}>Experience</NavLink>
       </li>
       <li>
-        <NavLink href="/#Projects" style={{  padding: "10px"}}>Projects</NavLink>
+        <NavLink href="/personal-website/#Projects" style={{  padding: "10px"}}>Projects</NavLink>
       </li>
       
       
