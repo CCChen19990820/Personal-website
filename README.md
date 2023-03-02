@@ -4,9 +4,9 @@ My personal website
 
 ## Personal Portfolio
 Live Demo
-```bash
+
 https://ccchen19990820.github.io/personal-website/ 
-```
+
 ## Installing
 ```bash
 run npm i && npm start
