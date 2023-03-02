@@ -2,8 +2,7 @@
 
 My personal website
 
-## Personal Portfolio
-Live Demo
+## Live Demo
 
 https://ccchen19990820.github.io/personal-website/ 
 
