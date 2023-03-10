@@ -42,19 +42,19 @@ const Header = () => {
         </div>
         <div className='mx-6'>
           <ul className='hidden md:flex'>  
-            <Link href='/#Hero' scroll={false}>
+            <Link href='/personal-website/#Hero' scroll={false}>
               <li className="ml-10 text-4xl font-semibold uppercase hover:border-b">Home</li>
             </Link>
-            <Link href='/#About' scroll={false}>
+            <Link href='/personal-website/#About' scroll={false}>
               <li className="ml-10 text-4xl font-semibold uppercase hover:border-b">About</li>
             </Link>
-            <Link href='/#Timeline' scroll={false}>
+            <Link href='/personal-website/#Timeline' scroll={false}>
               <li className="ml-10 text-4xl font-semibold uppercase hover:border-b">Experience</li>
             </Link>
-            <Link href='/#Projects' scroll={false}>
+            <Link href='/personal-website/#Projects' scroll={false}>
               <li className="ml-10 text-4xl font-semibold uppercase hover:border-b">Project</li>
             </Link>
-            <Link href='/#Photo' scroll={false}>
+            <Link href='/personal-website/#Photo' scroll={false}>
               <li className="ml-10 text-4xl font-semibold uppercase hover:border-b">Photo</li>
             </Link>
           </ul>
@@ -78,19 +78,19 @@ const Header = () => {
             <div className='border-b border-gray-300 my-4 text-black' />
             <div>
               <ul>
-              <Link href='/#Hero' scroll={false}>
+              <Link href='/personal-website/#Hero' scroll={false}>
                 <li onClick={() => setShow(false)} className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Home</li>
               </Link>
-              <Link href='/#About' scroll={false}>
+              <Link href='/personal-website/#About' scroll={false}>
                 <li onClick={() => setShow(false)} className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">About</li>
               </Link>
-              <Link href='/#Timeline' scroll={false}>
+              <Link href='/personal-website/#Timeline' scroll={false}>
                 <li onClick={() => setShow(false)} className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Experience</li>
               </Link>
-              <Link href='/#Projects' scroll={false}>
+              <Link href='/personal-website/#Projects' scroll={false}>
                 <li onClick={() => setShow(false)} className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Project</li>
               </Link>
-              <Link href='/#Photo' scroll={false}>
+              <Link href='/personal-website/#Photo' scroll={false}>
                 <li onClick={() => setShow(false)} className="px-4 py-4 text-xl font-semibold text-black uppercase hover:border-b">Project</li>
               </Link>
               </ul>

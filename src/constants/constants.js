@@ -4,42 +4,42 @@ import { RiToolsFill } from 'react-icons/Ri';
 export const projects = [
   {
     title: 'PGT ultrasound image segmentation and classification',
-      image: '/../public/images/p1.png',
+      image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/p1.png?raw=true',
       tags: 'Tensorflow - Scikit-learn - Python - Docker',
     source: 'https://github.com/CCChen19990820/PGT-ultrasound-image-segmentation-and-classification',
     id: 0,
   },
   {
     title: 'Cyber Warrior Detection on YouTube',
-    image: '/../public/images/p2.png',
+    image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/p2.png?raw=true',
     tags: 'Machine Learning - Scrapy - Python - Node.js',
     source: 'https://github.com/CCChen19990820/Cyber_Warrior_Detection_on_YouTube',
     id: 1,
   },
   {
     title: 'Brawl Fight Game',
-    image: '/../public/images/p3.png',
+    image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/p3.png?raw=true',
     tags: 'OS mutex - Unity3D - C#',
     source: 'https://github.com/CCChen19990820/Unity-Brawl-Fight',
     id: 2,
   },
   {
     title: 'Job Platform',
-    image: '/../public/images/p4.png',
+    image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/p4.png?raw=true',
     tags: 'Python - PostgreSQL - Scrapy - Docker',
     source: 'https://github.com/CCChen19990820/job-platform',
     id: 3,
   },
   {
     title: 'OOP Farm Ecology Simulation',
-    image: '/../public/images/p5.png',
+    image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/p5.png?raw=true',
     tags: 'OOP - C++ - Linux',
     source: 'https://github.com/CCChen19990820/OOP-Farm-Ecology',
     id: 4,
   },
   {
     title: 'Kinectv1 Human Skeleton Detection',
-    image: '/../public/images/p6.png',
+    image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/p6.png?raw=true',
     tags: 'Kinectv1 - Unity3D - C# - OS mutex',
     source: 'https://github.com/CCChen19990820/HCI_Unity-kinect-Play-Footballs',
     id: 5,
@@ -123,18 +123,18 @@ export const Dev = [
 export const photo = [
   {
     id: 1,
-    image: '/../public/images/l1.jpg',
+    image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/l1.jpg?raw=true',
   },
   {
     id: 2,
-    image: '/../public/images/l2.jpg',
+    image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/l2.jpg?raw=true',
   },
   {
     id: 3,
-    image: '/../public/images/l3.jpg',
+    image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/l3.jpg?raw=true',
   },
   {
     id: 4,
-    image: '/../public/images/l4.jpg',
+    image: 'https://github.com/CCChen19990820/personal-website/blob/master/public/images/l4.jpg?raw=true',
   }
 ];
