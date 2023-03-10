@@ -5,18 +5,26 @@ import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import About from '../components/About/About';
+import Header from '../components/Header/Header';
+import Photo from '../components/Photo/Photo';
+
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
   return (
-    <Layout>
+    <>
+      <Header />
       <Hero />
       <About />
       <Technologies />
       <Timeline />
       <Projects />
-    </Layout>
+      <Photo />
+      <Footer />
+    </>
+    
   );
 };
 

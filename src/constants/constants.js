@@ -1,39 +1,48 @@
+import { SiLinux, SiReact, SiWindows, SiDocker, SiGit, SiPython, SiJava, SiC, SiPostgresql } from 'react-icons/Si';
+import { RiToolsFill } from 'react-icons/Ri';
+
 export const projects = [
   {
     title: 'PGT ultrasound image segmentation and classification',
-    description: "Using DL model for segment ultrasound PGT ROI image. Feature extraction using texture and morphological features. Using ML model for feature classification with RFECV feature selection.",
-      image: 'https://github.com/CCChen19990820/personal-website/blob/9ba43dead67976ad832d755015f3f6460d8cf47d/public/images/p1.png?raw=true',
-      tags: ['Machine learning', 'Python', 'Docker'],
+      image: '/../public/images/p1.png',
+      tags: 'Tensorflow - Scikit-learn - Python - Docker',
     source: 'https://github.com/CCChen19990820/PGT-ultrasound-image-segmentation-and-classification',
-    visit: 'https://github.com/CCChen19990820/PGT-ultrasound-image-segmentation-and-classification',
     id: 0,
   },
   {
     title: 'Cyber Warrior Detection on YouTube',
-    description:"This is the college student plan of the Ministry of Science and Technology. Analyze account interaction behavior under videos on Taiwanese political channels. Using time series analysis and community analysis to group accounts and calculate the similarity of message content.",
-    image: 'https://github.com/CCChen19990820/personal-website/blob/9ba43dead67976ad832d755015f3f6460d8cf47d/public/images/p2.png?raw=true',
-    tags: ['Scrapy', 'Python', 'Node.js'],
+    image: '/../public/images/p2.png',
+    tags: 'Machine Learning - Scrapy - Python - Node.js',
     source: 'https://github.com/CCChen19990820/Cyber_Warrior_Detection_on_YouTube',
-    visit: 'https://github.com/CCChen19990820/Cyber_Warrior_Detection_on_YouTube',
     id: 1,
   },
   {
     title: 'Brawl Fight Game',
-    description: "This is a project to participate in the 2019 NTUST game competition. A PC two-player battle game designed with reference to the gameplay of the mobile game Brawl Stars.",
-    image: 'https://github.com/CCChen19990820/personal-website/blob/9ba43dead67976ad832d755015f3f6460d8cf47d/public/images/p3.png?raw=true',
-    tags: ['Unity3D', 'C#'],
+    image: '/../public/images/p3.png',
+    tags: 'OS mutex - Unity3D - C#',
     source: 'https://github.com/CCChen19990820/Unity-Brawl-Fight',
-    visit: 'https://github.com/CCChen19990820/Unity-Brawl-Fight',
     id: 2,
   },
   {
     title: 'Job Platform',
-    description: "This is a job vacancy website for python language developed with lab classmates. Writing crawler to grab python job vacancy information from major job search websites every day and build a website.",
-    image: 'https://github.com/CCChen19990820/personal-website/blob/9ba43dead67976ad832d755015f3f6460d8cf47d/public/images/p4.png?raw=true',
-    tags: ['Python', 'PostgreSQL', 'Docker'],
+    image: '/../public/images/p4.png',
+    tags: 'Python - PostgreSQL - Scrapy - Docker',
     source: 'https://github.com/CCChen19990820/job-platform',
-    visit: 'https://github.com/CCChen19990820/job-platform',
     id: 3,
+  },
+  {
+    title: 'OOP Farm Ecology Simulation',
+    image: '/../public/images/p5.png',
+    tags: 'OOP - C++ - Linux',
+    source: 'https://github.com/CCChen19990820/OOP-Farm-Ecology',
+    id: 4,
+  },
+  {
+    title: 'Kinectv1 Human Skeleton Detection',
+    image: '/../public/images/p6.png',
+    tags: 'Kinectv1 - Unity3D - C# - OS mutex',
+    source: 'https://github.com/CCChen19990820/HCI_Unity-kinect-Play-Footballs',
+    id: 5,
   },
 ];
 
@@ -57,4 +66,75 @@ export const TimeLineData = [
   },
 ];
 
+export const Language = [
+  {
+    icon: <SiC size="3rem" />,
+    name: 'C / C++'
+  },
+  {
+    icon: <SiPython size="3rem" />,
+    name: 'Python'
+  },
+  {
+    icon: <SiC size="3rem" />,
+    name: 'C#'
+  },
+  {
+    icon: <SiJava size="3rem" />,
+    name: 'Java'
+  }
+];
 
+export const Dev = [
+  {
+    icon: <SiLinux size="3rem" />,
+    name: 'Linux'
+  },
+  {
+    icon: <SiWindows size="3rem" />,
+    name: 'Windows'
+  },
+  {
+    icon: <RiToolsFill size="3rem" />,
+    name: 'FreeRTOS'
+  },
+  {
+    icon: <SiReact size="3rem" />,
+    name: 'Reactjs'
+  },
+  {
+    icon: <SiDocker size="3rem" />,
+    name: 'Docker'
+  },
+  {
+    icon: <SiGit size="3rem" />,
+    name: 'Git'
+  },
+  {
+    icon: <SiPostgresql size="3rem" />,
+    name: 'Postgresql'
+  },
+  {
+    icon: <RiToolsFill size="3rem" />,
+    name: 'MLflow'
+  }
+];
+
+export const photo = [
+  {
+    id: 1,
+    image: '/../public/images/l1.jpg',
+  },
+  {
+    id: 2,
+    image: '/../public/images/l2.jpg',
+  },
+  {
+    id: 3,
+    image: '/../public/images/l3.jpg',
+  },
+  {
+    id: 4,
+    image: '/../public/images/l4.jpg',
+  }
+];

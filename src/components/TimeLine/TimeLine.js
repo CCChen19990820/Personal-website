@@ -7,65 +7,57 @@ import { TimeLineData } from '../../constants/constants';
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  // const [activeItem, setActiveItem] = useState(0);
-  // const carouselRef = useRef();
-
-  // const scroll = (node, left) => {
-  //   return node.scrollTo({ left, behavior: 'smooth' });
-  // }
-
-  // const handleClick = (e, i) => {
-  //   e.preventDefault();
-
-  //   if (carouselRef.current) {
-  //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
-  //     scroll(carouselRef.current, scrollLeft);
-  //   }
-  // }
-
-  // const handleScroll = () => {
-  //   if (carouselRef.current) {
-  //     const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
-
-  //     setActiveItem(index);
-  //   }
-  // }
-
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     scroll(carouselRef.current, 0);
-  //   }
-
-  //   window.addEventListener('resize', handleResize);
-  // }, []);
-
   return (
-    <div id='Timeline' className='about'>
-      <div className='experience section'>
-          <p className='experience title' style={{textAlign: 'center', paddingTop:"200px", fontSize: 30}}>
-            EXPERIENCE
-          </p>
-          <h2 className='experience subtutle' style={{color: '#569A78', textAlign: 'center', paddingTop:"0px", fontSize: 40}}>
-            WORK EXPERIENCE
-          </h2>
-          <div className='experience section divide' style={{paddingTop:"50px"}}>
-          <Expe>
-            {TimeLineData.map(({id, year, company, job, text1, text2, text3})=>(
-              <BlogCard key={id} style={{paddingBottom: "50px"}}>
-                <p style={{color: "#C8CECB", fontSize: 25}}>{year}<br /></p>
-                <p style={{color: "#FFFFFF", fontSize: 30, fontWeight: 'bold'}}>{company}<br /></p>
-                <p style={{color: "#FFFFFF", fontSize: 30}}>{job}<br /></p>
-                <p style={{color: "#C8CECB", fontSize: 20}}>{text1}<br /></p>
-                <p style={{color: "#C8CECB", fontSize: 20}}>{text2}<br /></p>
-                <p style={{color: "#C8CECB", fontSize: 20}}>{text3}<br /></p>
-              </BlogCard>
-            ))}
-          </Expe>
-            
-          </div>
+    <div id='Timeline' className="w-full min-h-screen flex justify-center items-center">
+      <div className='max-w-screen-xl	w-full h-full my-10 mx-auto p-2 pt-10 justify-center items-center'>
+        <p className='py-2 text-4xl text-center'>
+          EXPERIENCE
+        </p>
+        <h2 className='text-5xl text-amber-300 text-[#3CE792] text-center'>
+          Work Experience
+        </h2>
+        <div className='py-8 mx-10'>
+          <ol class="px-2 relative border-l border-gray-200 dark:border-gray-700">                  
+            <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-4xl font-normal leading-none text-gray-400 dark:text-gray-500">Nov 2022 - Now</time>
+              <p class="text-5xl font-semibold text-white">
+                National Cheng Kung University Hospital
+              </p>
+              <p class="text-5xl font-normal text-white">
+                Researcher
+              </p>
+              <p className='text-4xl text-gray-400'>
+                - Ultrasonic image analysis of parotid gland tumors.
+              </p>
+              <p className='text-4xl text-gray-400'>
+                - Develop models to automatically segment and classify ultrasound images.
+              </p>
+              <p className='text-4xl text-gray-400'>
+                - Build clinical system and user interface.
+              </p>
+            </li>
+            <li class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-4xl font-normal leading-none text-gray-400 dark:text-gray-500">Nov 2022 - Now</time>
+              <p class="text-5xl font-semibold text-white">
+                National Cheng Chi University CS
+              </p>
+              <p class="text-4xl font-normal text-white">
+                Teaching Assistant
+              </p>
+              <p className='text-4xl text-gray-400'>
+                - Assist students in program implementation.
+              </p>
+              <p className='text-4xl text-gray-400'>
+                - Write automated test of python code.
+              </p>
+              <p className='text-4xl text-gray-400'>
+                - Teach students python knowledge.
+              </p>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   );
