@@ -2,6 +2,9 @@
 
 My personal website
 
+## Live Demo
+
+https://ccchen19990820.github.io/personal-website/ 
 
 ## Installing
 ```bash
