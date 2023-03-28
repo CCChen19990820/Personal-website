@@ -4,7 +4,7 @@ My personal website
 
 ## Live Demo
 
-https://ccchen19990820.github.io/personal-website/ 
+http://www.ccchenjeff1999.live/
 
 ## Installing
 ```bash
